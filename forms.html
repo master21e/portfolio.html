@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="processing.php" method="post>" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="John Doe">
+        <input type="checkbox" id="student" name="student" value="i am a student">
+        <label for="student">I am a student.</label>
+        <br>
+        <labelfor="email">Email:</labelfor></labelfor>
+        <input type="email"name="email"   id="name" required>
+        <br>
+        <label for="password>">password</label>
+        <input type="email" name="email" id="email" placeholder="john@mail.com">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" accept="video/*">
+        
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <textarea id="bio" name="bio" rows="10" cols="25">Type in your  bio>
+        </textarea>
+        <input type="submit" value="Save Detail"> 
+        <br>
+        <br>
+        <label for="car">Select a Car Model:</label>
+        <select id="car" name="car">
+            <option value=""></option>
+            <option value="Toyota">Toyota</option>
+            <option value="Mitsubishi">Mitsubishi</option>
+            <option value="Mazda">Mazda</option>
+        </select>
+        
+
+    </form>
+</body>
+</html>
